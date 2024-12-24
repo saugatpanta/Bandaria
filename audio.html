@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia with Accessibility</title>
+  <style>
+    /* Basic styling */
+    .media-container {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .transcript {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <h1>Multimedia Elements with Accessibility</h1>
+
+  <!-- Audio Section -->
+  <div class="media-container">
+    <h2>Audio Example</h2>
+    <audio controls>
+      <source src="hahaha.mp3" type="audio/mpeg">
+      <source src="audio-example.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+    <!-- Accessibility Alternative: Transcript -->
+    <div class="transcript">
+      <strong>Audio Transcript:</strong> Welcome to our webpage! This audio clip provides an overview of the services we offer, including web development, design, and consultation.
+    </div>
+  </div>
+
+  <!-- Video Section -->
+  <div class="media-container">
+    <h2>Video Example</h2>
+    <video controls width="640" height="360" poster="video-poster.jpg">
+      <source src="bandaria.mp4" type="video/mp4">
+      <source src="video-example.ogg" type="video/ogg">
+      Your browser does not support the video element.
+    </video>
+    <!-- Accessibility Alternative: Transcript -->
+    <div class="transcript">
+      <strong>Video Transcript:</strong> This video demonstrates the features of our new product, including its intuitive user interface, performance enhancements, and real-world use cases. The video begins with an introduction, followed by a live demo, and ends with customer testimonials.
+    </div>
+  </div>
+</body>
+</html>
